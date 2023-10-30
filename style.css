@@ -1,0 +1,134 @@
+body {
+  background-color: #739072;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: left;
+  shape-outside: content-box;
+}
+
+
+h1 {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  background-color: #EAD7BB ;
+  color: #4F6F52;
+  font-size: 48px;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+  text-align: center;
+  width: 70%;
+  margin: 24px auto;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+h2 {
+  /* background-color: #EAD7BB ; */
+  color: #EAD7BB;
+  font-size: 36px;
+  border-radius: 5px;
+  padding: 12px;
+  width: 20%;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: left;
+  color: #EAD7BB;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.my_aside p {
+  padding-left: 18px;
+  font-size: 18px;
+  color: #DFD7BF;
+  line-height: 1.4;
+  max-width: 80%;
+}
+
+.my_aside > button {
+  border-radius: 5px;
+  border : none;
+  background-color: #435334;
+  color: #EAD7BB;
+  font-size: 18px;
+}
+
+.my_aside > button:hover{
+  background: linear-gradient(30deg, #435334 , #4C4B16);
+  text-decoration: underline;
+  width: 50%;
+}
+
+
+
+
+.my_social_links {
+  border-radius: 5px;
+  margin-top: 60px;
+  background-color: #EAD7BB ;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.my_social_links h3 {
+  color: #435334 ;
+  padding-left: 12px;
+  padding-top: 12px;
+}
+
+.my_social_links ul {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Pour aligner horizontalement */
+  justify-content: left; /* Pour mettre à gauche les icônes horizontalement */
+}
+
+.my_social_links li {
+  margin: 6px 24px; /* Espacement horizontal entre les icônes */
+}
+
+.my_social_links li a i {
+  font-size: 30px; /* Taille de l'icône (ajustez selon vos besoins) */
+  /* transition: color 0.3s; Transition de couleur pour l'effet de survol */
+}
+
+.my_social_links li a i:hover {
+  font-size: 42px;
+}
+
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
